@@ -1,0 +1,171 @@
+/* Dylan Silk */
+
+/* Style sheet for index.html */
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: slkscr;
+    src: url(../font/slkscr.ttf);
+}
+
+@font-face {
+    font-family: slkscrb;
+    src: url(../font/slkscrb.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: slkscr;
+    background-color: #141315;
+}
+/* CSS for the navbar's styling */
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    background-color: #5A515C;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #D1D9E3;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #6A606D;
+}
+/* CSS Styling for the gray space container gameInfo */
+.gameInfo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2% 5% 2% 5%;
+    background-color: #302D32;
+    border-radius: 1%;
+    width: 90%;
+}
+/* Banner image of our game's logo */
+.gameImage {
+    margin: 2% 2%;
+    background-color:#3E3940;
+}
+
+#banner {
+    width: 80%;
+    max-width: 80%;
+    max-height: auto;
+}
+/* CSS Styling for what goes under the banner image. */
+.underBanner {
+    display: flex;
+    flex-direction: row;
+    background-color: #302D32;
+    border-radius: 1%;
+}
+
+.charImage {
+    display: flex;
+    margin: 2% 2%;
+    padding: auto;
+    background-color:#3E3940;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutGame {
+    margin: 2% 2%;
+    padding: 0% 2% 0% 2%;
+    background-color:#3E3940;
+    color: #D1D9E3;
+    font-size: large;
+}
+
+.aboutGame h1 {
+    font-family: slkscrb;
+    font-size: larger;
+}
+/* CSS Styling for the grayspace container teamInfo */
+.teamInfo {
+    display: flex;
+    flex-direction: column;
+    margin: 2% 5% 2% 5%;
+    background-color: #302D32;
+    border-radius: 1%;
+    width: 90%;
+    color: #D1D9E3;
+    font-family: slkscrb;
+}
+/* CSS Styling for everything inside of that container */
+.theTeam {
+    margin: 2% 2%;
+    background-color:#3E3940;
+    font-family: slkscrb;
+    font-size: 80px;
+    text-align: center;
+}
+
+.person {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutImage {
+    margin: 2% 2%;
+    padding: 2% 2% 2%;
+    background-color:#3E3940;
+    width: 20%;
+}
+
+#personImage {
+    width: 100%;
+    height: auto;
+}
+
+.aboutText {
+    width: 80%;
+    margin: 2% 2%;
+    padding: 0% 2% 0% 2%;
+    background-color:#3E3940;
+    color: #D1D9E3;
+    font-size: larger;
+}
+
+.aboutText h1 {
+    font-size: 30px;
+    text-align: Center;
+}
+
+.aboutText h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #D1D9E3;
+}
+
+.aboutText a {
+    color: #D1D9E3;
+}
+
+.aboutText a:visited {
+    color: #6A606D;
+}
+
+.aboutText p1 {
+    font-family: slkscr;
+    font-size: larger;
+    text-align: left;
+    margin: 2% 2%;
+}
+
+.aboutGame a {
+    background-color: #5A515C;
+    color: #D1D9E3;
+}
+
+.aboutGame a:hover {
+    background-color: #6A606D;
+}
